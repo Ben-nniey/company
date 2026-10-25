@@ -3,7 +3,7 @@
   "name": "Ben Construction Hub",
   "short_name": "Ben Hub",
   "description": "Your trusted construction and building services platform.",
-  "start_url": "./index.html",
+  "start_url": ".COMPANY/index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -28,6 +28,29 @@
     "type": "image/png",
     "purpose": "any"
   }
-]
+],
+
+  "screenshot": [
+    {
+      "src": "./screenshot/home-screen.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Ben Construction Hub website DESKTOP PAGE"
+    },
+     {
+      "src": "./screenshot/mobile-home-screen.png",
+      "sizes": "360x800",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ben Construction Hub website MOBILE HOMEPAGE"
+    }
+
+  ]
+  
+   
+
+
 
 }
+
