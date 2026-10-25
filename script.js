@@ -273,3 +273,19 @@ function toggleOngoingProject() {
     project.classList.toggle("open");
 
 }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./service-worker.js")
+      .then((registration) => {
+        console.log(
+          "Ben Construction Hub app service worker registered:",
+          registration.scope
+        );
+      })
+      .catch((error) => {
+        console.error("Service worker registration failed:", error);
+      });
+  });
+}
